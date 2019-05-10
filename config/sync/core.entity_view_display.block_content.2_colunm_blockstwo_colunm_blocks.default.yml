@@ -1,0 +1,22 @@
+uuid: b5ed3f12-209d-4202-8f39-f6a5b1d99910
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.2_colunm_blockstwo_colunm_blocks
+    - field.field.block_content.2_colunm_blockstwo_colunm_blocks.body
+  module:
+    - text
+id: block_content.2_colunm_blockstwo_colunm_blocks.default
+targetEntityType: block_content
+bundle: 2_colunm_blockstwo_colunm_blocks
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

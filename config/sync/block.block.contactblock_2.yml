@@ -1,0 +1,23 @@
+uuid: 9189fffc-a59f-458d-a1f2-f8805ecbfd36
+langcode: en
+status: false
+dependencies:
+  config:
+    - contact.form.volunteering_form_drupal_camp_de
+  module:
+    - contact_block
+  theme:
+    - dcd16
+id: contactblock_2
+theme: dcd16
+region: content
+weight: 1
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Become a Volunteer'
+  provider: contact_block
+  label_display: visible
+  contact_form: volunteering_form_drupal_camp_de
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 24eaf851-6e23-4b56-8867-1872c82963b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.registration_block
+  module:
+    - contact_block
+    - system
+  theme:
+    - dcd16
+id: contactblock_3
+theme: dcd16
+region: content
+weight: 2
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Create a new account'
+  provider: contact_block
+  label_display: visible
+  contact_form: registration_block
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
